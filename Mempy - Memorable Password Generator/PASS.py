@@ -71,6 +71,7 @@ def main(): #one method of allowing function declarations after your main code b
       if(args.b):
         output = output[0].upper() + output[1:] + "->" + str(secRand.randint(0,9))
       outf.write(output+'\n')
+      print(output)
 
 def randomString(gen = random.SystemRandom()):
   numChars = gen.randint(5,8)
